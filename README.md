@@ -104,5 +104,5 @@ Copyright © 2025 Yuanzhe Chen.
 ---
 
 ## 🧩 Acknowledgments  
-Developed by **Yuanzhe (Anthony) Chen** @ UNSW Sydney  
+Developed by **Yuanzhe Chen** @ UNSW Sydney  
 as part of the **NVIDIA Project G-Assist Plug-in Hackathon 2025**.
