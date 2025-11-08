@@ -1,0 +1,17 @@
+{
+  "IFTTT_API_KEY": "your_ifttt_webhooks_key_here",
+  "DEFAULT_TIMEOUT_SECONDS": 10,
+  "SCENES": {
+    "study": "aerovolt_study",
+    "sleep": "aerovolt_sleep",
+    "movie": "aerovolt_movie",
+    "away": "aerovolt_away"
+  },
+  "MOBILITY_ACTIONS": {
+    "start_ev_charging_home": "aerovolt_start_ev_charging_home",
+    "stop_ev_charging_home": "aerovolt_stop_ev_charging_home",
+    "ev_off_peak_schedule": "aerovolt_ev_off_peak_schedule",
+    "uav_patrol_yard": "aerovolt_uav_patrol_yard",
+    "uav_return_home": "aerovolt_uav_return_home"
+  }
+}

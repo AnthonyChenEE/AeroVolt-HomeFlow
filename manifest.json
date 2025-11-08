@@ -1,0 +1,95 @@
+{
+  "manifestVersion": 1,
+  "executable": "g-assist-plugin-homeflow.exe",
+  "persistent": false,
+  "functions": [
+    {
+      "name": "run_scene",
+      "description": "Activate a preconfigured smart home scene mapped to an IFTTT event as part of the AeroVolt HomeFlow plug-in for Project G-Assist.",
+      "tags": [
+        "smart_home",
+        "ifttt",
+        "scene",
+        "automation"
+      ],
+      "properties": {
+        "scene": {
+          "type": "string",
+          "description": "Name of the scene to run, e.g. 'study', 'sleep', 'movie', 'away'."
+        }
+      }
+    },
+    {
+      "name": "trigger_ifttt_event",
+      "description": "Trigger a raw IFTTT Webhooks event with optional values for advanced automations.",
+      "tags": [
+        "smart_home",
+        "ifttt",
+        "webhook"
+      ],
+      "properties": {
+        "event_name": {
+          "type": "string",
+          "description": "The IFTTT Webhooks event name, e.g. 'aerovolt_lights_off'."
+        },
+        "value1": {
+          "type": "string",
+          "description": "Optional value1 payload passed to IFTTT."
+        },
+        "value2": {
+          "type": "string",
+          "description": "Optional value2 payload passed to IFTTT."
+        },
+        "value3": {
+          "type": "string",
+          "description": "Optional value3 payload passed to IFTTT."
+        }
+      }
+    },
+    {
+      "name": "list_scenes",
+      "description": "List all configured smart home scenes that AeroVolt HomeFlow can run.",
+      "tags": [
+        "smart_home",
+        "ifttt",
+        "scene",
+        "list"
+      ],
+      "properties": {}
+    },
+    {
+      "name": "run_mobility_action",
+      "description": "Run an AeroVolt HomeFlow mobility action for EVs or UAVs, such as starting EV charging or launching a UAV patrol.",
+      "tags": [
+        "smart_home",
+        "ifttt",
+        "ev",
+        "electric_vehicle",
+        "uav",
+        "drone",
+        "mobility"
+      ],
+      "properties": {
+        "action": {
+          "type": "string",
+          "description": "Mobility action name, e.g. 'start_ev_charging_home', 'uav_patrol_yard'."
+        }
+      }
+    },
+    {
+      "name": "list_mobility_actions",
+      "description": "List all configured mobility actions for EVs and UAVs that AeroVolt HomeFlow can run.",
+      "tags": [
+        "smart_home",
+        "ifttt",
+        "ev",
+        "electric_vehicle",
+        "uav",
+        "drone",
+        "mobility",
+        "list"
+      ],
+      "properties": {}
+    }
+  ]
+}
