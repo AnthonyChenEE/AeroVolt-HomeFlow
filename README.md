@@ -99,7 +99,7 @@ This project includes a standalone visualization program `demo.py` that demonstr
 
 ## 📜 License  
 This project is released under the MIT License.  
-Copyright © 2025 Yuanzhe (Anthony) Chen.  
+Copyright © 2025 Yuanzhe Chen.  
 
 ---
 
