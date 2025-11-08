@@ -19,6 +19,7 @@ mobility, and AI computing on RTX™ PCs.
 
 ```text
 aerovolt-homeflow/
+  ├─ LICENSE 
   ├─ README.md
   ├─ manifest.json
   ├─ config.json
