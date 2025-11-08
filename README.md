@@ -20,12 +20,11 @@ mobility, and AI computing on RTX™ PCs.
 ```text
 aerovolt-homeflow/
   ├─ README.md
-  └─ homeflow/
-      ├─ manifest.json
-      ├─ config.json
-      ├─ plugin.py
-      ├─ requirements.txt
-      └─ build.bat
+  ├─ manifest.json
+  ├─ config.json
+  ├─ plugin.py
+  ├─ requirements.txt
+  └─ build.bat
 ```
 
 ## Quick Start
